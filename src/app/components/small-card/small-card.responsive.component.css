@@ -1,0 +1,17 @@
+@media screen and (max-width: 1317px) {
+  .small-card__container {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1144px) {
+  .small-card__container {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .small-card__container {
+    width: 400px;
+  }
+}

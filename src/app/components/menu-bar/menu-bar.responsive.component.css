@@ -1,0 +1,9 @@
+@media screen and (max-width: 635px) {
+  .menu-bar__burguer-menu {
+    display: flex;
+  }
+
+  .menu-bar__pages {
+    display: none;
+  }
+}

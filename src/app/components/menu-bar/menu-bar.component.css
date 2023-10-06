@@ -21,3 +21,7 @@
   list-style: none;
   font-weight: 700;
 }
+
+.menu-bar__burguer-menu {
+  display: none;
+}
