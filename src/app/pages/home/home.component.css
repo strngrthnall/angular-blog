@@ -1,0 +1,10 @@
+.articles__container {
+  margin-top: 32px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-bottom: 64px;
+}
+

@@ -1,0 +1,38 @@
+.big-card__container {
+  border: none;
+  margin: 0 40px;
+  width: 550px;
+  height: 500px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.big-card__picture > a > img {
+  width: 100%;
+  min-width: 400px;
+}
+
+.big-card__title {
+  margin: 16px 0 8px;
+}
+
+.big-card__title > span {
+  font-size: 12px;
+}
+
+.big-card__title > h2 {
+  font-size: 26px;
+  margin-top: 2px;
+
+}
+
+.big-card__description > p {
+  font-size: 18px;
+}
+
+
+.big-card__title > span, .big-card__description > p > a {
+  color: #6d6d6d;
+}
