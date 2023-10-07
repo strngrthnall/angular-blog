@@ -7,9 +7,12 @@
   </div>
   <div class="menu-bar__pages">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Artigos</a></li>
-      <li><a href="#">Bookmarks</a></li>
+      <li><a [routerLink]="['']">Home</a></li>
+      <li>
+        <a [routerLink]="['content']">
+          Artigos
+        </a>
+      </li>
     </ul>
   </div>
   <div class="menu-bar__social-media">
@@ -40,4 +43,7 @@
       </li>
     </ul>
   </div>
+</div>
+<div class="menu-bar__divider">
+  <hr>
 </div>

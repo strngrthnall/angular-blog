@@ -25,3 +25,7 @@
 .menu-bar__burguer-menu {
   display: none;
 }
+
+.menu-bar__divider > hr {
+  border-color: #ffffff09;
+}

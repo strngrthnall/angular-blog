@@ -24,6 +24,7 @@
 
 .small-card__title > span {
   font-size: 12px;
+  margin-bottom: 2px;
   color: #6d6d6d;
 }
 
