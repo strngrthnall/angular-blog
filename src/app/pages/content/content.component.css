@@ -3,6 +3,13 @@
   height: 100%;
 }
 
+.content__cover {
+  margin-top: 8px;
+  height: 538px;
+  position: relative;
+
+}
+
 .content__cover > img {
   width: 100%;
   min-width: 500px;
@@ -14,8 +21,7 @@
   padding: 32px 10px ;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.767) 50%, rgba(0, 0, 0, 0.007) 100%);
   min-width: 100%;
-  top: 78.5vh;
-  right: 0%;
+  bottom: 0;
 }
 
 .content__title > h1,
