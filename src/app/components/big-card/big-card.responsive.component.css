@@ -1,6 +1,42 @@
 @media screen and (max-width: 425px) {
   .big-card__container {
-    width: 400px;
-    margin: 0 8px;
+    display: flex;
+    width: 375px;
+    height: auto;
+    margin: 0
+
+  }
+
+  .big-card__picture > a > img  {
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .big-card__title,
+  .big-card__description {
+    margin: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .big-card__container {
+    width: 375px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+  .big-card__container {
+    width: 320px;
+
+  }
+
+  .big-card__picture > a > img  {
+    max-width: 100%;
+    overflow: hidden;
   }
 }

@@ -12,6 +12,24 @@
 
 @media screen and (max-width: 425px) {
   .small-card__container {
-    width: 400px;
+    width: 375px
+  }
+  .small-card__container__content {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .small-card__container {
+    width: 359px
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .small-card__container {
+    width: 304px
   }
 }

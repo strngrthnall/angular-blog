@@ -1,9 +1,14 @@
+.explainer__container {
+  max-width: 100%;
+}
+
 .explainer__container > hr {
   border-color: #ffffff09;
 }
 
 .explainer__content{
   margin: 16px 0;
+  padding: 0 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,4 +23,16 @@
 
 .explainer__content > p > a {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+  .explainer__content {
+    padding: 0 4px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .explainer__content > p {
+    margin: auto;
+  }
 }
